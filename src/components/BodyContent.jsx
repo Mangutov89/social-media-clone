@@ -1,13 +1,13 @@
 import React from "react";
-import Navbar from "./Navbar";
-import BodyContent from "./BodyContent";
+import Feed from "./Feed";
+import Profile from "./Profile";
 
-function App(){
+function BodyContent(){
 
   return (
     <div>
-      <Navbar/>
-      <BodyContent/>
+      <Feed/>
+      <Profile/>
       <h3></h3>
       <h3>Thato and Haley</h3>
       <p><em>Firebase entries not saving!</em></p>
@@ -16,4 +16,4 @@ function App(){
   );
 }
 
-export default App;
+export default BodyContent;

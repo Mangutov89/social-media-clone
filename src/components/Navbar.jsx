@@ -34,7 +34,6 @@ function Navbar(){
           <input type="text" placeholder="Search"></input>
           <input type="text" placeholder="Tweet"></input>
         </div>
-
       </div>
       <hr/>
     </div>
