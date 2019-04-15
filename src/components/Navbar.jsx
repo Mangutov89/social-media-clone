@@ -22,6 +22,10 @@ function Navbar(){
     padding: '5px 13px',
   }
 
+  const borderInput = {
+    borderRadius: "25px"
+  }
+
   return (
     <div>
       <div style={stylesNav}>
@@ -31,8 +35,8 @@ function Navbar(){
           <h2 style={border}>Messages</h2>
         </div>
         <div>
-          <input type="text" placeholder="Search"></input>
-          <input type="text" placeholder="Tweet"></input>
+          <input type="text" placeholder="Search" style={borderInput}></input>
+          <input type="text" placeholder="Tweet" style={borderInput}></input>
         </div>
       </div>
       <hr/>
