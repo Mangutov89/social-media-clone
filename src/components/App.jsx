@@ -8,10 +8,6 @@ function App(){
     <div>
       <Navbar/>
       <BodyContent/>
-      <h3></h3>
-      <h3>Thato and Haley</h3>
-      <p><em>Firebase entries not saving!</em></p>
-      <hr/>
     </div>
   );
 }
